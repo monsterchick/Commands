@@ -1,3 +1,7 @@
+# Docker
+```
+docker ps -a    # Shows all Docker containers, both running and stopped.
+``
 ```
 docker ps -a    # Shows all Docker containers, both running and stopped.
 ```

@@ -1,14 +1,3 @@
-<a id="top"></a>
-<center>
-
-| Ubuntu |  | 默认值 | 描述 |
-| --- | --- | --- | --- |
-| username | 字符串 | 无 | 用户名 |
-| password | 字符串 | 无 | 密码 |
-| remember | 布尔值 | --- | 是否记住用户登录状态 |
-
-</center>
-
 # ubuntu:
 ## File and directory commands:
 <details><summary>ls</summary>
@@ -222,7 +211,6 @@ To install, remove, and manage software packages from repositories.
 ```
 </details>
 
-[⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#top)
 ## Compiling source code for installing software:
 <details><summary>7 steps to compile</summary>
   

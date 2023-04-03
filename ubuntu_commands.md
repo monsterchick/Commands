@@ -221,6 +221,48 @@ To install, remove, and manage software packages from repositories.
   sudo apt list installed    # lists all the packages that are currently installed on the system.
 ```
 </details>
+[⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#top)
+
+## Compiling source code is a method for installing software:
+<details><summary>tesssssst</summary>
   
+### 1. Download the source code:
+#### curl source_code_link --output filename
   
+```
+e.g. curl https://www.nano-editor.org/dist/v7/nano-7.2.tar.gz --output nano-7.2.tar.gz
+```
+### 2. Extract the source code
+#### tar -xzvf file
+```
+e.g. tar -xzvf nano-7.2.tar.gz
+```
+  
+### 3. Go into the folder
+#### cd folder_path
+```
+e.g. cd nano-7.2
+```
+  
+### 4. Configure compilation
+```
+./configure    # generate a makefile
+```
+  
+### 5. Compile
+```
+make
+```
+  
+### 6. Install
+```
+sudo make install
+```
+  
+### 7. Clear cache
+```
+make clean    
+```
+</details>
+
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#top)

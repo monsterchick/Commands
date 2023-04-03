@@ -221,8 +221,8 @@ To install, remove, and manage software packages from repositories.
   sudo apt list installed    # lists all the packages that are currently installed on the system.
 ```
 </details>
-[⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#top)
 
+[⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#top)
 ## Compiling source code for installing software:
 <details><summary>7 steps to compile</summary>
   

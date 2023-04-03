@@ -243,16 +243,10 @@ git status    # check status
 git add --add
 ```
 ```
-git init
+git init    # creates a new Git repository
 ```
 ```
-# creates a new Git repository
-```
-```
-git clone
-```
-```
-# downloads all files from remote repository
+git clone    # downloads all files from remote repository
 ```
 ```
 git status    # check status
@@ -264,16 +258,10 @@ git add --add
 git add .
 ```
 ```
-git add fileName
+git add fileName    # stages file(s)
 ```
 ```
-# stages file(s)
-```
-```
-git commit -m "description"
-```
-```
-# commits files
+git commit -m "description"    # commits files
 ```
 ```
 git branch    # check local branch(s)

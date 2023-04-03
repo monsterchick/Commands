@@ -223,8 +223,8 @@ To install, remove, and manage software packages from repositories.
 </details>
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#top)
 
-## Compiling source code is a method for installing software:
-<details><summary>tesssssst</summary>
+## Compiling source code for installing software:
+<details><summary>7 steps to compile</summary>
   
 ### 1. Download the source code:
 #### curl source_code_link --output filename

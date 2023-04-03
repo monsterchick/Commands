@@ -1,0 +1,68 @@
+# Git
+  
+```
+git config --global user.name    # sets a username
+git config --global user.email    # sets a user email
+```
+```
+git init    # creates a new Git repository
+```
+```
+git clone    # downloads all files from remote repository
+```
+```
+git status    # check status
+```
+```
+git add --add
+```
+```
+git init    # creates a new Git repository
+```
+```
+git clone    # downloads all files from remote repository
+```
+```
+git status    # check status
+```
+```
+git add --add
+```
+```
+git add .
+```
+```
+git add fileName    # stages file(s)
+```
+```
+git commit -m "description"    # commits files
+```
+```
+git branch    # check local branch(s)
+```
+```
+git branch + newBranchName    # creates a new branch
+```
+```
+git checkout + branchName    # switches to a specific branch
+```
+```
+git push origin --delete github    # delete branch remotely
+```
+```
+git checkout origin/branchName    # check remote branch(s)
+```
+```
+echo .DS_Store >> ./.gitignore    # put .DS_Store into gitignore
+```
+```
+git reset    # pull the files from old version to local repository and back to previous version. All current commit will be clean up
+```
+
+```
+git log --oneline    # check all commit info in one line
+```
+```
+git log    # check all commit info
+```
+[ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#top)

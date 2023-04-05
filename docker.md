@@ -33,7 +33,8 @@ docker tag ubuntu:latest my-ubuntu:1.0    # tags the Ubuntu image with the name 
 <details><summary>docker run</summary>
 
 ```
-docker run -it ubuntu:latest bash    # creates and starts a new container from the Ubuntu image, and runs the bash command inside the container
+docker run -it ubuntu    # run image ubuntu and go into the bash. it does not keep running after exit the container.
+docker run --name test_ubuntu -dit ubuntu bash    # creates and starts a new container from the Ubuntu image, and runs the bash command inside the container
 ```
 
 </details>
@@ -62,7 +63,7 @@ docker rm my-container    # removes the container with the name "my-container"
 <details><summary>docker exec</summary>
 
 ```
-docker exec -it my-container bash    # runs the bash command inside the container with the name "my-container"
+docker exec -it 008 bash    # runs the bash command inside the container with the container-id
 ```
 
 </details>

@@ -42,7 +42,7 @@ docker run --name test_ubuntu -dit ubuntu bash    # creates and starts a new con
 <details><summary>docker ps</summary>
 
 ```
-docker ps    # lists all the running containers on the local machine
+docker ps -a   # lists all the running containers on the local machine
 ```
 
 </details>

@@ -5,10 +5,10 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt install samba -y
 ```
-configuration:
+# configuration:
 
 ```
-# sudo nano /etc/samba/smb.conf
+sudo nano /etc/samba/smb.conf
 ```
 
 ## add following configuration:
@@ -41,7 +41,7 @@ sudo ufw allow samba
 ```
 sudo ufw status
 ```
-access:
+# access:
 
 ```
 \\localhost\share

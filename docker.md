@@ -1,4 +1,7 @@
 # Docker:
+```
+docker --help    # get whatever you want
+```
 ## Image Commands:
 <details><summary>docker pull</summary>
 

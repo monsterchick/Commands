@@ -1,4 +1,4 @@
-# Docker:
+# Commands:
 ```
 docker --help    # get whatever you want
 ```
@@ -178,4 +178,34 @@ RUN apt-get update && apt-get install -y nginx (runs the apt-get command inside 
 ```
 COPY index.html /var/www/html/    # copies the index.html file from the current directory into the /var/www/html/ directory in the image
 ```
+</details>
+
+# Cheat Sheet:
+<details><summary>Backup&Migration</summary>
+
+# Login to Docker
+```
+docker login
+```
+# Commit and create a new image
+```
+docker commit -m 'test' container_id rep/myalpine
+```
+# Push the image to Docker Hub
+```
+docker push rep/myalpine
+```
+# Save the image as a tar file
+```
+docker save -o ./mynginx.tar mynginx
+```
+# Load the image from the tar file
+```
+docker load -i mynginx.tar
+```
+# Copy the tar file to a remote server
+```
+scp mynginx.tar root@192.xxx.xxx.xx:/root/docker/
+```
+
 </details>

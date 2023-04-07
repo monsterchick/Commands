@@ -207,5 +207,4 @@ docker load -i mynginx.tar
 ```
 scp mynginx.tar root@192.xxx.xxx.xx:/root/docker/
 ```
-
 </details>

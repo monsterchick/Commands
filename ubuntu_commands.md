@@ -189,7 +189,7 @@ Change the owner of a file or directory.
 Change the permissions of a file or directory.
   
 ```
-
+sudo chmod -R 777 ~/my_folder
 ```
 </details>
 

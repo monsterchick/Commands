@@ -60,6 +60,8 @@ git log branchB..branchA
 # show the commits on branchA that are not on branchB
 git log --follow [file]
 # show the commits that changed file, even across renames
+git log --oneline
+# show the commits history in a concise and condensed format.
 git diff branchB...branchA
 # show the diff of what is in branchA that is not in branchB
 git show [SHA]

@@ -125,4 +125,4 @@ git stash drop
 # discard the changes from top of stash stack
 ```
 
-[⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#top)
+[⬆️ RETURN TO TOP](#top)

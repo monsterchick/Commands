@@ -1,6 +1,3 @@
-<id="top">
-[<-back](https://github.com/monsterchick/Commands/blob/main)
-
 # SETUP
 ## Configuring user information used across all local repositories
 ```bash
@@ -127,4 +124,4 @@ git stash drop
 # discard the changes from top of stash stack
 ```
 
-[ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#top)
+[⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#top)

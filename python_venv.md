@@ -1,4 +1,4 @@
-# Virtual environment configuration:
+# Python Virtual Environment
 ## Install venv:
 
 ### Ubuntu:

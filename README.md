@@ -11,4 +11,6 @@
 
 - [samba installation](https://github.com/monsterchick/Commands/blob/main/samba_installation_ubuntu.md)
 
-[Git](https://github.com/monsterchick/Commands/blob/main/git_commands.md)
+[Docker](https://github.com/monsterchick/Commands/blob/main/docker_commands.md)
+
+[vuepress](https://github.com/monsterchick/Commands/blob/main/vuepress_docker.md)

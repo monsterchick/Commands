@@ -1,3 +1,5 @@
+[⬅️ GO BACK](https://github.com/monsterchick/Commands)
+
 # install samba
 
 ```
@@ -52,3 +54,4 @@ sudo ufw status
 apt-get autoremove samba samba-common -y
 apt-get remove --purge samba -y
 ```
+[⬆️ RETURN TO TOP](#top)

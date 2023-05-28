@@ -1,17 +1,17 @@
-# install samba:
+# install samba
 
 ```
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt install samba -y
 ```
-# configuration:
+# configuration
 
 ```
 sudo nano /etc/samba/smb.conf
 ```
 
-## add following configuration:
+## add following configuration
 ```
 [share]
     comment = Shared Floder
@@ -21,12 +21,12 @@ sudo nano /etc/samba/smb.conf
     read only = no
 ```
 
-# restart service:
+# restart service
 ```
 sudo service smbd restart
 ```
 
-# set samba user:
+# set samba user
 ```
 sudo smbpasswd -a root    # must be user who already exists
 ```
@@ -41,13 +41,13 @@ sudo ufw allow samba
 ```
 sudo ufw status
 ```
-# access:
+# access
 
 ```
 \\localhost\share
 ```
 
-# completely remove samba:
+# completely remove samba
 ```
 apt-get autoremove samba samba-common -y
 apt-get remove --purge samba -y

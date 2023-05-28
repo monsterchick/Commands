@@ -1,3 +1,5 @@
+[⬅️ GO BACK](https://github.com/monsterchick/Commands)
+
 # ubuntu:
 ## File and directory commands:
 <details><summary>ls</summary>
@@ -253,4 +255,4 @@ make clean
 ```
 </details>
 
-[⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#top)
+[⬆️ RETURN TO TOP](#top)

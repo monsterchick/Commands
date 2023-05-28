@@ -13,6 +13,6 @@
 
 [Docker](https://github.com/monsterchick/Commands/blob/main/docker_commands.md)
 
-- [vuepress](https://github.com/monsterchick/Commands/blob/main/vuepress_docker.md)
+- [vuepress installation](https://github.com/monsterchick/Commands/blob/main/vuepress_docker.md)
 
 [pip](https://github.com/monsterchick/Commands/blob/main/pip.md)
